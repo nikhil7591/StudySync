@@ -519,20 +519,11 @@ iframe {
         width: 60%;
     }
 
-/*     tr td:first-child {
-        font-size: 15px;
-        font-weight: 600;
-        padding-right: 10px;
-    } */
-    
-    .reach-table td{
-        display: flex;
-        flex-direction: column;
+    tr td:first-child {
         font-size: 15px;
         font-weight: 600;
         padding-right: 10px;
     }
-
 }
 
 
