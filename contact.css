@@ -407,9 +407,6 @@ iframe {
         flex-basis: 48%;
     }
 
-    button {
-        width: 30%;
-    }
 }
 
 /* CSS for larger screens (laptop) */
@@ -439,9 +436,7 @@ iframe {
         flex-basis: 48%;
     }
 
-    button {
-        width: 60%;
-    }
+   
 }
 
 /* CSS for medium-sized screens (tablet) */
@@ -467,6 +462,9 @@ iframe {
     .container-right {
         padding: 30px;
     }
+    .container-right{
+        border-radius: 0px 0px 20px 20px;
+    }
 
     .input-row {
         flex-wrap: wrap;
@@ -477,10 +475,9 @@ iframe {
         margin-bottom: 15px;
     }
 
-    button {
-        width: 25%;
-    }
+    
 }
+
 
 /* CSS for smaller screens (mobile) */
 @media only screen and (max-width: 767px) {
@@ -501,6 +498,9 @@ iframe {
         padding: 20px;
     }
 
+    .container-right{
+        border-radius: 0px 0px 20px 20px;
+    }
     .input-row {
         flex-direction: column; /* Stack input rows vertically */
     }
@@ -524,6 +524,11 @@ iframe {
         font-weight: 600;
         padding-right: 10px;
     }
+    
+    .reach-table td{
+        display: flex;
+    }
+
 }
 
 
@@ -719,3 +724,4 @@ ul{
         grid-template-columns: repeat(2,1fr);
     }
 }
+
