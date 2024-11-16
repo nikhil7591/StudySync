@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - StudySync</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header class="header-content">
+        <a href="index.html" class="logo">
+            <img src="./images/StudySyn.svg" alt="logo-icon" class="logo-icon">
+            <span class="logo-text">StudySync</span>
+        </a>
+
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html#features" class="nav-link">Features</a>
+            <a href="pricing.html" class="nav-link">Pricing</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="about.html" class="nav-link">About</a>
+        </nav>
+
+        <a href="contact.html" class="contact-button">Contact Us</a>
+
+        <button type="button" class="menu-button">
+            <img src="./images/Hamburger.svg" alt="menuButton" class="menu-icon">
+        </button>
+    </header>
+</div>
+
+<div id="mySidenav" class="side-nav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="index.html#features" class="nav-link">Features</a>
+    <a href="pricing.html" class="nav-link">Pricing</a>
+    <a href="blog.html" class="nav-link">Blog</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="contact.html" class="nav-link">Contact us</a>
+</div>
+
+    <div class="contactus">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>Fill up the form to get in touch with us. </p>
+
+            <!-- Contact form section -->
+            <div class="contact-box">
+                <!-- Left side of the form -->
+                <div class="container-left">
+                    <h3>Fill the Form*</h3>
+                    <!-- Form -->
+                    <form id="contactForm" onsubmit="return validateForm()">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name*</label>
+                                <input type="text" id="name" placeholder="Enter your Name" required>
+                            </div>
+
+                            <div class="input-group">
+                                <label>Phone*</label>
+                                <input type="text" id="phone" placeholder="+91 1234567890" required>
+                            </div>
+                        </div>
+
+                        <!-- Input row for Email and Subject -->
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email*</label>
+                                <input type="email" id="email" placeholder="youremail@gmail.com" required>
+                            </div>
+
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" id="subject" placeholder="Inquiry">
+                            </div>
+                        </div>
+
+                        <!-- Label for Message textarea -->
+                        <label>Message*</label>
+                        <textarea rows="10" id="message" placeholder="Enter your Message" required></textarea>
+                        <button type="submit" class="send-message">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <!-- Right side with contact information -->
+                <div class="container-right">
+                    <h3>Reach Us</h3>
+                    <!-- Table for contact information -->
+                    <table>
+                        <tr>
+                            <td>Email: </td>
+                            <td>contact@chitkara.edu.in</td>
+                        </tr>
+
+                        <tr>
+                            <td>Phone: </td>
+                            <td>+91 011-45656183</td>
+                        </tr>
+
+                        <tr>
+                            <td>Address: </td>
+                            <td>Chitkara University <br>
+                                Rajpura<br>
+                                Punjab - 140401, India</td>
+                        </tr>
+                    </table>
+
+                    <!-- Map section -->
+                    <div class="map">
+                        <!-- Google Map iframe -->
+                        <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.1749717999974!2d76.65720287502894!3d30.516091096071364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1699035680885!5m2!1sen!2sin"  width="800" height="275" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footor-container">
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-company-logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="./images/StudySyn.svg" alt="" class="logo-svg">
+                        StudySync
+                    </a>
+                </div>
+                <p class="filler-text">
+                    Seamless Learning for Brighter Futures.
+                </p>
+                <div class="social">
+                    <a href="" class="social-link">
+                        <img src="./images/instagram.svg" alt="" class="social-icon">
+                    </a>
+                    <a href="" class="social-link">
+                        <img src="./images/twitter.svg" alt="" class="social-icon">
+                    </a>
+                    <a href="" class="social-link">
+                        <img src="./images/linkedin-copy.svg" alt="" class="social-icon">
+                    </a>
+                    <a href="" class="social-link">
+                        <img src="./images/github.svg" alt="" class="social-icon">
+                    </a>
+                </div>
+
+            </div>
+            <div class="footer-grid">
+                <!-- Column 1 -->
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">
+                        Products
+                    </div>
+                    <ul class="footer-links-list">
+                        <li>
+                            <a href="#overview" class="footer-links">Overview</a>
+                        </li>
+                        <li>
+                            <a href="#solutions" class="footer-links">Solutions</a>
+                        </li>
+                        <li>
+                            <a href="#pricing" class="footer-links">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#customers" class="footer-links">Customers</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Column 2 -->
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">
+                        Company
+                    </div>
+                    <ul class="footer-links-list">
+                        <li>
+                            <a href="#about" class="footer-links">About</a>
+                        </li>
+                        <li>
+                            <a href="#investor-relations" class="footer-links">Investor Relations</a>
+                        </li>
+                        <li>
+                            <a href="#jobs" class="footer-links">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="#press" class="footer-links">Press</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="footer-links">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Column 3 -->
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">
+                        Support
+                    </div>
+                    <ul class="footer-links-list">
+                        <li>
+                            <a href="#contact" class="footer-links">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#documentation" class="footer-links">Docummentation</a>
+                        </li>
+                        <li>
+                            <a href="#chat" class="footer-links">Chat</a>
+                        </li>
+                        <li>
+                            <a href="#FAQ" class="footer-links">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Column 4 -->
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">
+                        Legal
+                    </div>
+                    <ul class="footer-links-list">
+                        <li>
+                            <a href="#terms-of-services" class="footer-links">Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="#privacy-policy" class="footer-links">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#cookie" class="footer-links">Cookie settings</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-copyright">
+            © 2024 - Present StudySync. All rights reserved.
+        </div>
+    </div>
+
+
+    <script>
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("blur-background").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("blur-background").style.display = "none";
+        }
+
+        document.querySelector('.menu-button').addEventListener('click', function () {
+            openNav();
+        });
+
+        document.querySelector('.blur-background').addEventListener('click', function () {
+            closeNav();
+        });
+
+
+        // Function to validate the contact form before submission
+        function validateForm() {
+            // Get values from input fields
+            var name = document.getElementById('name').value;
+            var phone = document.getElementById('phone').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Check if name is empty
+            if (name.trim() == '') {
+                alert('Please enter your name');
+                return false;
+            }
+
+            // Check if phone number is empty
+            if (phone.trim() == '') {
+                alert('Please enter your phone number');
+                return false;
+            }
+
+            // Check if email is empty
+            if (email.trim() == '') {
+                alert('Please enter your email');
+                return false;
+            }
+
+            // Check if message is empty
+            if (message.trim() == '') {
+                alert('Please enter your message');
+                return false;
+            }
+
+            // All fields are filled, return true for form submission
+            return true;
+        }
+    </script>
+</body>
+
+</html>
